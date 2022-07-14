@@ -84,6 +84,12 @@ Backend:
 - Netlify for the frontend
 - Heroku for the backend and database
 
+### Dataflow Diagram
+
+
+### Application Architecture Diagram
+
+
 ### User Stories
 The user personas are: user, active staff member, admin.
 
