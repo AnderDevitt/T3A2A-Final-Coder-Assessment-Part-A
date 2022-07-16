@@ -132,3 +132,9 @@ Admin: This is the manager for the cafe.
 - As an admin I can edit my own details.
 - As an admin I can generate a report on staff work times.
 
+## WIREFRAMES
+
+
+## PROJECT MANAGEMENT 
+Our team has used Trello as a project management tool. 
+
