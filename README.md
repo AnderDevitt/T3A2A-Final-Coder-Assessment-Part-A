@@ -48,7 +48,9 @@ A sprinkle feature that will be included in the application if possible, is that
 The application will display alert and notice massages at the top of the screen to inform the user about successful actions and errors.
 
 ## TARGET AUDIENCE
-The application has two target audiences. First and foremost the client (the cafe manager) who will use the application to monitor staff shifts and assist in payroll checking. Secondly, the cafe employees who will use it to clock in and out at work.
+The cafe is a busy environment in the lobby of an office building in the Brisbane CBD. A lot of foot traffic and customers pass through the lobby throughout the day which creates an active work environment. This has been taken into account in the app design by the client and developers.
+
+The application has two target audiences. First and foremost the client (the cafe manager) who will use the application to monitor staff shifts and assist in payroll checking. Most features of the application are for the use of the administrator. The second target group are the cafe employees, who will use it to clock in and out at work. This is the only interaction they need to perform with the app. There are a small number of employees on shift at any time, so they are occasionally very busy.
 
 ### The manager needs:
 - Accurate times recorded for each employess who works on any day.
