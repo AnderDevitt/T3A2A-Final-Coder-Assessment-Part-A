@@ -88,10 +88,21 @@ The tech stack for this application will be the following.
 - Heroku (backend and database)
 
 ## DATAFLOW DIAGRAM
+Dataflow diagrams are separated by function.
+### System log in and log out
+![system_log_in](./docs/dataflow_1.png)
 
+### Staff Start or End their Shift
+![staff_shifts](./docs/dataflow_2.png)
+
+### Administrator Creates a New User or Edits a User
+![admin_cread_edit_user](./docs/dataflow_3.png)
+
+### Administrator Generates a Report
+![admin_generate_report](./docs/dataflow_4.png)
 
 ### APPLICATION ARCHITECTURE DIAGRAM
-
+![architecture_diagram](./docs/ArchitectureDiagram.PNG)
 
 ## USER STORIES
 The user personas are: user, active staff member, admin.
