@@ -109,6 +109,10 @@ Dataflow diagrams are separated by function.
 ## USER STORIES
 The user personas are: user, active staff member, admin.
 
+User: In the context of the app, a user is a staff member with a password for the applicaion.
+Active Staff Member: Staff members can be deactivated by the manager when they no longer work for the cafe or take an extended break. Active members are visible on the Web Client when staff are logging their shift times.
+Admin: This is the manager for the cafe.
+
 ### User 
 - As a user I can log into the system.
 - As a user I can log out of the system.
