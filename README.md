@@ -213,6 +213,11 @@ This page has a section at the top where the admin can conveniently adjust the d
 
 ![report_page](./docs/wireframe_report.PNG)
 
+### Client Presentation
+On Friday 15th, I had a meeting with the client to discuss the current progress in the application. I am including below extra wireframes with more visual design asthetics that were used for this presentation. They were made based on my earlier wireframes, with my input, but I must acknowledge that a friend drew these up for e as I didn't have access to the software suite used. The wireframes that I made above in this readme file include changes that were requested during that meeting based on the images in this pdf, and on the older versions of my wireframes that thes in turn were based on.
+
+[styled_wireframes_pdf_file](./docs/AndrewDevitt_T2A2_Marketplace_wireframes.pdf)
+
 ## PROJECT MANAGEMENT
 
 Our team has used Trello as a project management tool.
