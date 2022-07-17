@@ -216,3 +216,14 @@ This page has a section at the top where the admin can conveniently adjust the d
 ## PROJECT MANAGEMENT
 
 Our team has used Trello as a project management tool.
+
+![trello_screenshot](./docs/t1.png)
+![trello_screenshot](./docs/t2.png)
+![trello_screenshot](./docs/t3.png)
+![trello_screenshot](./docs/t4.png)
+![trello_screenshot](./docs/t5.png)
+![trello_screenshot](./docs/t6.png)
+![trello_screenshot](./docs/t7.png)
+![trello_screenshot](./docs/t8.png)
+![trello_screenshot](./docs/t9.png)
+![trello_screenshot](./docs/t10.PNG)
