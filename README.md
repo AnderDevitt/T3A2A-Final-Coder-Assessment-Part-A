@@ -172,42 +172,46 @@ Admin: This is the manager for the cafe.
 ### Loading Page
 This is the first page the application will open to. It is not strictly necessary to the current intended deployment of the application, but is a legacy requirement of the client for the original desired startup of the application. In the original design specification, the frontend would only be run locally in the cafe and on the manager's PC. It was intended that clicking the 'Staff" button would immediately open the Shifts Page without any authentication. Clicking on the 'Admin' button would however require authentication. The client still desires this functionality in the final product, however due to the initial Netlify deployment for this project, he has agreed that staff authentication is currently best practice. 
 
-![loading_page](./docs/wireframe_1.png)
+![loading_page](./docs/wireframe_loading.png)
 
 ### Sign In Page
 Both staff and admin will be directed to this screen from the loading page. For staff, there will be a general cafe username and password so that the first member to arrive can start up the system and staff will therefore not have to enter individual usernames and passwords. The admin will also enter their username and password. 
 
 Staff will then be directed to the page view titled "My Shift". The admin will be redirected to the 'Admin Panel' which is identical to the My Shift page, but has extra options for the administrator.
 
-![sign_in](./docs/wireframe_2.png)
+![sign_in](./docs/wireframe_sign_in.png)
 
 ### Shifts Page
 All staff will interact with this page. Aside from the loading and sign in pages, this is the only view that staff will see. Here an employee can enter their pin number and then click 'start' to clock-in. They will be authenticated and their start time will be sent to the database. At the end of their shift they enter their pin and click 'end' and their finish time is sent. To log out of the system at the end of the shift they will use the log-out option in the navbar menu. 
 
-![shifts_page](./docs/wireframe_3.png)
+![shifts_page](./docs/wireframe_shift.png)
 
 ### Admin Panel
 The Admin Panel has the same list of active staff with their start and end buttons as on the My Shift page. This will allow the admin to clock staff on/off if there is an issue on the staff terminal, someone forgets to do so, or should there be an emergency such as sudden illness.
 
 The clock is replaced with buttons to 'Add New Staff' and 'Generate Report', and 'edit' links are added to each staff member's listing.
 
-![shifts_page](./docs/wireframe_4.png)
+![admin_page](./docs/wireframe_admin.png)
 
 ### Add New Staff Page
 The admin will be directed to this page when choosing to add a new staff member. They can include the firstname, lastname, and set a new pin number. Saving an entry will return them to the Admin Panel.
 
+![add_staff_page](./docs/wireframe_add.png)
+
 ### Edit Staff Page
 Identical to the new staff page, this page is reached via the edit links next to staff details. The page will display the staffmember's name in the title. Saving changes will return the admin to the Admin Panel. There will also be a 'back' button added in case changes are not desired. 
+
+![edit_staff_page](./docs/wireframe_edit.png)
 
 ### Generate Report Page
 This page is accessed via the 'Generate Report' button on the Admin Panel. On this page, the admin can select a start and end date for the report. From a drop-down menu, they can use checkboxes to select all staff, or any staff on the list. Clicking the button to generate the report here will fetch the relevant data from the database and display it on the DisplayReport Page. 
 
-![shifts_page](./docs/wireframe_5.png)
+![generate_report_page](./docs/wireframe_generate.png)
 
 ### Display Report Page
 This page has a section at the top where the admin can conveniently adjust the date range. Below, a table is generated that will show the staff names, start and end times, of all staff who worked on the days specified in the date range. The 'Export' button is currently a sprinkle feature to export the report to a Excel format file.
 
-![shifts_page](./docs/wireframe_5.png)
+![report_page](./docs/wireframe_report.png)
 
 ## PROJECT MANAGEMENT
 
