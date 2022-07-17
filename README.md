@@ -144,25 +144,28 @@ Admin: This is the manager for the cafe.
 
 ### User
 
-- As a user I can log into the system.
-- As a user I can log out of the system.
-- As a user I cn view the main page and list of active staff for the current day.
+- As a user I want to be able to log into the system with a general staff log-in, so that only staff can see the clock-in page and individual staff don't have to sign in to the system.
+- As a user I want to log out of the system at the end of the cafe operating hours so that the app is secure.
+- As a user I want to always see the shifts page and list of active staff during the cafe hours so that all staff can quickly begin and end their shifts from the one page.
 
 ### Active Staff Member
 
-- As an active staff member I can do all the same things as a user.
-- As an active staff member I can enter my pin number.
-- As an active staff member I can click the start and end buttons to begin or end my shift.
+- As an active staff member I want to do all the same things as a user.
+- As an active staff member I want to enter my pin number so that I can authenticate my actions on the shifts screen.
+- As an active staff member I want to click the start and end buttons so that I can begin or end my shift and record the correct time that I do so.
+- As an active staff member I want to be able to see a system clock so that I know the exact time that will be recorded for my shift start and end.
 
 ### Admin
 
-- As an admin I can do all the same things as an active staff member.
-- As an admin I can see the options to add a staff member, edit staff details, and generate reports.
-- As an admin I can add a new staff member.
-- As an admin I can edit a staff member's details.
-- As an admin I can deactivate staff members who leave and reactivate returning staff.
-- As an admin I can edit my own details.
-- As an admin I can generate a report on staff work times.
+- As the admin I want to do all the same things as an active staff member.
+- As the admin I want to see admin options added to the shifts screen, so that I can perform additional functions (create user, edit user, generate report).
+- As the admin I want to be able to begin and end staff shifts, so that I can do this when staff have forgotten or in an emergency. 
+- As the admin I want to add new staff members when people join the team.
+- As the admin I want to be able to edit a staff member's details, so that I can update their information, reset forgotten pins, and change active status.
+- As the admin I want to deactivate staff members who leave and reactivate returning staff, so that only staff currently working are displayed on the shifts screen.
+- As the admin I want to deactivate staff who leave so that they remain in the database and I do not need to delete their data.
+- As the admin I want to be able to edit my own details so that I can change my username and password.
+- As the admin I want to generate a report on staff work times for a given period so that I can compare times worked with payroll data.
 
 ## WIREFRAMES
 
